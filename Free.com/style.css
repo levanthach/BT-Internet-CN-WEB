@@ -1,0 +1,62 @@
+body {
+	background: #163f71;
+	margin:0!important;
+	padding: 0;
+}
+.main {
+	width: 80%;
+	margin:auto;
+	background: #fff;
+	min-height:100vh;
+}
+.logo, .banner, .content, .logon-join, .contact {
+	text-align: center;
+}
+
+.content{
+	color: #225ca2;
+}
+.logon-join {
+	width: 100%;
+}
+
+.logon{
+	width: 40%;
+	display: inline-block;
+	margin-left: 100px;
+
+}
+.logon img , .join img {
+	margin-bottom: 15px;
+}
+.join {
+	width : 40%;
+	float: right;
+	margin-right: 100px;
+}
+.text {
+	color: #225ca2;
+
+}
+.contact {
+	margin: 25px;
+}
+.mail{
+	color: red;
+	text-decoration: underline;
+	font-weight: 600;
+}
+.footer{
+	width: 90%;
+	margin:auto;
+	text-align: center;
+}
+.footer .button {
+	width: 30%;
+	display: inline-block;
+}
+.footer .copy-right {
+	padding-top: 5px;
+	font-weight: 500;
+	margin: 0;
+}

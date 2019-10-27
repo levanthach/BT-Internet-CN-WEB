@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(img/co-vietnam.png) center no-repeat fixed;
+	margin: 0;
+}
+.title h1 {
+	text-align: center;
+	color: #ff0000;
+}
+.bando {
+	margin:0 50px;
+	display: inline;
+	float: left;
+}
+.content {
+	margin-left: 40px;
+}
+
+.block-2{
+	display: block;
+}
+.diacau {
+	display: inline;
+	float: right;
+
+}
+.diacau img {
+	width: 254px;
+	height: 254px;
+}
+.back-to-top {
+	float: right;
+}
+.part-title {
+	color: #fff;
+	padding: 5px 15px;
+}
+.part-title-hn {
+	background: #ff0000;
+}
+.text-style {
+	height: 85px;
+	font-size: 60pt;
+	padding: 0 15px 0 0;
+	float: left;
+	color: #ffff00;
+	text-shadow: 2px 2px 2px red;
+	margin: 0;
+}
+.part-title-hue {
+	background: #9900cc;
+}
+.part-title-hcm{
+	background: #ff00cc;
+}
+.content-3column{
+	-webkit-columns:100px 3; ;
+	-moz-columns:100px 3; ;
+	-ms-columns: 100px 3;;
+	-o-columns: 100px 3;;
+	columns: 100px 3;
+	-webkit-column-rule: 1px dashed #999;
+	-moz-column-rule: 1px dashed #999;
+	-ms-column-rule: 1px dashed #999;
+	-o-column-rule: 1px dashed #999;
+	column-rule: 1px dashed #999;
+
+}

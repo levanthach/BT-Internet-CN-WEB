@@ -1,0 +1,28 @@
+body {
+	background: url(img/background.gif) repeat-y;
+	background-size: contain;
+}
+.content {
+	background:black;
+	width: 628px;
+	height: auto;
+	margin:auto;
+	color: white;
+}
+.content__detail,footer {
+	width: 70%;
+	font-size: 14px;
+}
+.banner {
+	margin-top: 40px;
+}
+.link {
+	color: #fe0000;
+}
+footer {
+	margin-top: 80px;
+}
+footer p{
+	color: #979b9e;
+	font-size: 12px;
+}

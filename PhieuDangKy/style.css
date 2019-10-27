@@ -1,0 +1,49 @@
+body {
+	color: #0000ff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+*:focus {
+	outline: none;
+}
+.name-form {
+    text-shadow: 2.5px 1px 7px #0000ff;
+    color: #fff;
+    font-size: 28px;
+}
+table {
+	background: url(img/khuyen-mai.png) bottom left no-repeat #ccffff;
+	border-collapse: collapse;
+	border-radius: 20px;
+    box-shadow: 3px 3px 10px #0000ff ;
+}
+
+
+tr> td:first-child{
+	text-align: right;
+	font-weight: bold;
+	padding-right: 10px;
+}
+.text-box{
+	background: rgba(5, 48, 255, 0.2);
+	padding: 2px 5px;
+	border: 1px #0000ff dotted;
+	border-radius: 15px;
+}
+.sex {
+	font-weight: bold;
+}
+#thongbao {
+	color: #fb47e5;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+.btn-access {
+	color: #fff;
+    padding: 3px 25px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 1px #666;
+  background: rgb(42,189,223);
+background: linear-gradient(0deg, rgba(42,189,223,1) 0%, rgba(0,23,235,1) 100%);
+}
