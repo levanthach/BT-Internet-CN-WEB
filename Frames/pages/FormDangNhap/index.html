@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Đăng Nhập</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login">
+		<h1 class="name-form" style="text-align: center;">Form Đăng Nhập</h1><br><br>
+		<form action="#" method="POST" enctype="text/plain">
+			<table width="500" border="0" align="center">
+				<tr>
+					<td width="150" align="right">Tên người dùng:</td>
+					<td><input type="text" class="text-box" name="txtUser" id="txtUser" required size="20" maxlength="20"></td>
+				</tr>
+				<tr>
+					<td width="150" align="right">Mật khẩu:</td>
+					<td><input type="password"  class="text-box" name="txtPass" id="txtPass" required size="20" maxlength="20" required></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input type="button" class="button" name="buttom" value="In câu chào" onclick="inCauChao()">
+						<input type="submit" class="submit" name="buttom" value="Gửi thông tin">
+						<input type="reset" onclick="reset()" id="reset" class="reset" name="buttom" value="Làm lại">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><label id="cauchao"></label></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	function inCauChao(){
+		document.getElementById('cauchao').innerHTML = 'Chào bạn <b><i>' +txtUser.value+ '</i></b>'; 
+	}
+
+	function reset(){
+		document.getElementById('reset').reset();
+	}
+</script>
+</html>

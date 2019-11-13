@@ -1,0 +1,34 @@
+*:focus{
+	outline: none;
+}
+.name-form {
+	color: #a00a09;
+	text-shadow: 2px 2px 3px #fba1a0;
+}
+.login {
+	width: 600px;
+	height: 300px;
+	background: url('images/login.jpg') right center no-repeat;
+	background-size: contain;
+	margin: 140px auto;
+	padding-top: 30px;
+	border: 2px #fb0307 dotted;
+	border-radius: 15px;
+	box-shadow: 15px 10px 15px #f7c5c5;
+}
+.text-box {
+	background: rgba(250, 0, 0, 0.2);
+	padding: 2px 5px;
+	border: 1px #FC080C dotted;
+	border-radius: 15px;
+}
+.button, .submit, .reset {
+	margin: 10px 0;
+	background: linear-gradient(60deg, #fd0307, #a71416, #fc0307);
+	color: #fff;
+	padding: 2px 5px;
+	border-radius: 15px;	
+}
+#cauchao {
+	color: #fb0307;
+}

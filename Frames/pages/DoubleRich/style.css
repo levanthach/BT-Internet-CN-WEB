@@ -1,0 +1,58 @@
+body {
+	background-color: #990000;
+	background-image: url(img/rose.png), url(img/kim-tea-hee.png), url(img/nen-hoa-hong.png); 
+	background-repeat: no-repeat; 
+	background-position:  100px 470px, left 60px, right 320px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	margin-top: 50px; 
+	margin-left: 90px;
+}
+table {
+	border: 1px solid #ffccff;
+	width: 700px;
+	height: auto;
+	margin: auto;
+
+}
+.white-title {
+	height: auto;
+	background: #ff0000;
+}
+.white-title h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 10px;
+}
+.slogan{
+	background: #ffccff;
+	height: auto;
+}
+.slogan h2 {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 31px;
+	margin: 10px;
+	text-align: left;
+}
+ul li, ol li {
+	line-height: 1.4;
+}
+.content__title {
+	color: #ff0000;
+	font-size: 17.5px;
+	margin-left: 2px;
+}
+.content__title::before{
+	content:'\f0c8';
+	width: 20px;
+	height: 10px;
+	font-size: 18px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+.content__detail {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 100;
+}

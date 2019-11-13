@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Phiếu Đăng Ký</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 align="center" class="name-form">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+	<form method="POST">
+		<table width="576" height="525" align="center" cellspacing="0">
+			<tr>
+				<td>Họ tên:</td>
+				<td><input type="text" class="text-box" name="hoten" size="35" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td>Địa chỉ:</td>
+				<td><textarea name="diachi" class="text-box" rows="5" cols="40" style="resize: none"></textarea></td>
+			</tr>
+			<tr>
+				<td>Điện thoại:</td>
+				<td><input type="text" class="text-box" size="20" name="dienthoai" maxlength="25"></td>
+			</tr>
+			<tr>
+				<td>Giới tính:</td>
+				<td class="sex"><input type="radio" class="text-box" name="gioitinh" id="Nam" checked="checked"> Nam
+			<input type="radio" name="gioitinh" id="Nữ" > Nữ
+				</td>
+			</tr>
+			<tr>
+				<td>Nghề nghiệp:</td>
+				<td>
+					<select id="nghenghiep" class="text-box" style="width: 100px;">
+						<option value="1" selected>Bác sĩ</option>
+						<option value="2" >Kỹ sư</option>
+						<option value="3">Giáo viên</option>
+						<option value="4">Khác</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Số người dự đoán tham gia:</td>
+				<td>
+					<select size="4" class="text-box" multiple="MULTIPLE" id="sanpham" style="width: 200px">
+						<option value="1" selected="">Kem đánh răng</option>
+						<option value="2" >Bột giặt</option>
+						<option value="3" >Dầu gội đầu</option>
+						<option value="4" >Sữa tắm</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Số người dự đoán tham gia:</td>
+				<td><input type="text" class="text-box" name="so nguoithamgia" size="15" maxlength="20" id="songuoithamgia"></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center!important">
+					<input type="button" class="btn-access" name="dongy" value="Đồng ý" onclick="thongbao()">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center!important; padding: 0">
+					<label id="thongbao"></label>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+<script type="text/javascript">
+	function thongbao(){
+		document.getElementById('thongbao').innerHTML = '<b>Bạn đã đăng ký thành công!!!</b>';
+	}
+</script>
+</html>
