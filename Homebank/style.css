@@ -1,0 +1,49 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #033266;
+}
+a {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #FFFFFF!important;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.banner td img {
+	min-width: 100%;
+}
+.content {
+	width: 100%;
+}
+.content__img {
+	width: 29%;
+	float: left;
+	display: inline;
+	padding-left: 7px;
+}
+.content__text {
+	width: 61%;
+	float: left;
+	display: inline;
+	padding-left: 40px;
+	text-align: justify;
+}
+.news_inday {
+	font-weight: 600;
+}
+p.text {
+    margin: 0 10px 0px 0px;
+}

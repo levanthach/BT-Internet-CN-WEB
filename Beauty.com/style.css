@@ -1,0 +1,44 @@
+.wrapper {
+	text-align: center;
+	width: 100%;
+	display: flex;
+}
+.col-left {
+
+position: absolute;
+
+/* top: 73px; */
+
+left: -21.3%;
+
+top: 73px;
+}
+.col-right {
+	position: absolute;
+	right: -19.95%;
+	top: 189px;
+}
+.col-main {
+	width: auto;
+	text-align: center;
+	position: relative;
+	margin: auto;
+}
+.m-auto {
+	margin:auto;
+}
+.logo {
+	margin-left: 70px;
+}
+.logo img{
+	display: flex;
+	margin: auto;
+
+}
+.col-main img {
+	display: flex;
+	margin: auto;
+}
+.col-left img,.col-right img {
+	display: flex;
+}
